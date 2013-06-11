@@ -1,9 +1,5 @@
 #include "nuke.h"
 
-/* min and max positions for each servo */
-int mins[] = {512, 205, 165, 358, 335, 220, 205, 512, 165, 358, 335, 220};
-int maxs[] = {818, 512, 665, 850, 800, 689, 512, 818, 665, 850, 800, 689};
-
 /* IK Engine */
 ik_req_t endpoints[LEG_COUNT];
 float bodyRotX = 0;             // body roll (rad)
